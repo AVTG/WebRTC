@@ -4,7 +4,7 @@
 This project demonstrates a **WebRTC application** that enables real-time peer-to-peer video streaming. It uses **Google's STUN server** and a **WebSocket-based signaling server** for connection setup.
 
 ## How It Works
-1. **Signaling Server** (Runs on port `ws://localhost:80808080`):
+1. **Signaling Server** (Runs on port `localhost:8080`):
    - Handles communication between peers using **WebSockets**.
    - Exchanges **SDP offers and answers** to establish the WebRTC connection.
 
